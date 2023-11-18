@@ -10,7 +10,6 @@ import {
   SearchIcon,
 } from "@heroicons/react/outline";
 import axios from "axios";
-// import api from "./api/email";
 
 const navigation = [
   { name: "Dashboard", href: "#", icon: HomeIcon, current: true },
@@ -123,12 +122,12 @@ function App() {
                       </button>
                     </div>
                   </Transition.Child>
-                  {/* Sidebar component, swap this element with another sidebar if you like */}
+
                   <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6 pb-4 ring-1 ring-white/10">
                     <div className="flex h-16 shrink-0 items-center">
                       {/* <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                        src=""
                         alt="Your Company"
                       /> */}
                     </div>
@@ -170,7 +169,7 @@ function App() {
             <div className="flex h-16 shrink-0 items-center">
               {/* <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                src=""
                 alt="Your Company"
               /> */}
             </div>
@@ -204,8 +203,6 @@ function App() {
           </div>
         </div>
 
-        {/* hhh */}
-
         <div className="lg:pl-72 ">
           <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
             <button
@@ -214,10 +211,8 @@ function App() {
               onClick={() => setSidebarOpen(true)}
             >
               <span className="sr-only">Open sidebar</span>
-              {/* <bars3 className="h-6 w-6" aria-hidden="true" /> */}
             </button>
 
-            {/* Separator */}
             <div
               className="h-6 w-px bg-gray-900/10 lg:hidden"
               aria-hidden="true"
@@ -249,7 +244,6 @@ function App() {
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
 
-                {/* Separator */}
                 <div
                   className="hidden lg:block lg:h-6 lg:w-px lg:bg-gray-900/10"
                   aria-hidden="true"
