@@ -128,7 +128,7 @@ function App() {
                       {/* <img
                         className="h-8 w-auto"
                         src=""
-                        alt="Your Company"
+                        alt="hookwell"
                       /> */}
                     </div>
                     <nav className="flex flex-1 flex-col">
@@ -170,7 +170,7 @@ function App() {
               {/* <img
                 className="h-8 w-auto"
                 src=""
-                alt="Your Company"
+                alt="hookwell"
               /> */}
             </div>
             <nav className="flex flex-1 flex-col">
