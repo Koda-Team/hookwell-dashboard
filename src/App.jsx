@@ -50,7 +50,9 @@ function App() {
   useEffect(() => {
     const emailFetch = async () => {
       try {
-        const response = await axios.post("http://localhost:3000/emails");
+        const response = await axios.post(
+          "https://html-to-image-1jxi.onrender.com/emails"
+        );
         console.log(response.data.data, "the response data");
 
         setEmails(await response.data.data);

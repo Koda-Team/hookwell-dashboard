@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendURL = "http://localhost:3000";
+const backendURL = "https://html-to-image-1jxi.onrender.com";
 
 export default axios.get({
   baseURL: backendURL,
